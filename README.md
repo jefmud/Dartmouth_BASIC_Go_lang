@@ -2,7 +2,7 @@
 
 A Dartmouth BASIC language clone, interpreter REPL and "Transpiler" to Go, written in Go Lang.
 
-**disclaimer**: 80 % Vibe coded, 10% love of programming
+**disclaimer**: 80 % Vibe coded, 10% love of programming, 10% coffee.
 
 ## Vibe coding and Manual coding 
 
