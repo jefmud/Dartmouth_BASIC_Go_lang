@@ -51,16 +51,24 @@ go build -o basic
 go run hello.go
 ```
 
+### Compile a BASIC file to a single executeable
+```
+go build -o hello examples/hello.bas
+```
+
 ### Interactive REPL:
 ```bash
 ./basic
 ```
 
 REPL commands:
+
 - `RUN` - Execute the program
 - `LIST` - Show the program
 - `CLEAR` or `NEW` - Clear the program
 - `EXIT` or `QUIT` - Exit the interpreter
+- `SAVE <filename.bas>` - Save code to disk
+- `LOAD <filename.bas>` - Load code from diesk
 
 ## Examples
 
