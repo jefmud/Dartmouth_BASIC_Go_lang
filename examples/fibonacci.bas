@@ -1,0 +1,13 @@
+10 REM Fibonacci Sequence
+20 LET A = 0
+30 LET B = 1
+40 PRINT "Fibonacci Sequence:"
+50 PRINT A
+60 PRINT B
+70 FOR I = 1 TO 10
+80 LET C = A + B
+90 PRINT C
+100 LET A = B
+110 LET B = C
+120 NEXT I
+130 END
