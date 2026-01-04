@@ -35,7 +35,7 @@ A Dartmouth BASIC language clone, interpreter REPL and Cross-Complier (transpile
 ## Building
 
 ```bash
-go build -o basic
+go build -o basic main.go
 ```
 
 ## Usage
