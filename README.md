@@ -1,6 +1,6 @@
 # BASIC Interpreter
 
-A Dartmouth BASIC language clone, interpreter REPL and Cross-Complier (transpiler?) to Go, written in Go.
+A Dartmouth BASIC language clone, interpreter REPL and "Transpiler" to Go, written in Go Lang.
 
 **disclaimer**: 80 % Vibe coded, 10% love of programming
 
@@ -45,15 +45,15 @@ go build -o basic main.go
 ./basic examples/hello.bas
 ```
 
-### Compile a BASIC file to Go
+### Transpile a BASIC file to Go
 ```bash
 ./basic -compile hello.go examples/hello.bas
 go run hello.go
 ```
 
-### Compile a BASIC file to a single executeable
+### Compile a BASIC file to a single executeable, 2 step procedure
 ```
-go build -o hello examples/hello.bas
+./basic -compile hello.go examples/hello.bas && go build -o hello hello.go
 ```
 
 ### Interactive REPL:
@@ -68,7 +68,8 @@ REPL commands:
 - `CLEAR` or `NEW` - Clear the program
 - `EXIT` or `QUIT` - Exit the interpreter
 - `SAVE <filename.bas>` - Save code to disk
-- `LOAD <filename.bas>` - Load code from diesk
+- `LOAD <filename.bas>` - Load code from disk
+- `DELETE n` - Deletes a line number
 
 ## Examples
 
