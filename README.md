@@ -1,16 +1,16 @@
 # BASIC Interpreter
 
-A Dartmoutn BASIC language interpreter REPL and Cross-Complier (transpiler?) to Go, written in Go.
+A Dartmouth BASIC language clone, interpreter REPL and Cross-Complier (transpiler?) to Go, written in Go.
 
 **disclaimer**: 80 % Vibe coded, 10% love of programming
 
 ## Vibe coding and Manual coding 
 
-Phase 1 BASIC REPL in GoLang: AbacusAI-- Claude Sonnet 4.5; couldn't quite get it right, but laid the ground work for the REPL. 
+* Phase 1 BASIC REPL in GoLang: AbacusAI-- Claude Sonnet 4.5; couldn't quite get it right, but laid the ground work for the REPL. 
 
-Phase 2 BASIC and Troubleshooting: AbacusAI Claude Sonnet 4.5; coding BASIC and troubleshooting in Go
+* Phase 2 BASIC and Troubleshooting: AbacusAI Claude Sonnet 4.5; coding BASIC and troubleshooting in Go
 
-Phase 3 GoLang and Troubleshooting: GPT-5.1 Codex, mostly built the compiler, not happy with this but it works.
+* Phase 3 GoLang and Troubleshooting: GPT-5.1 Codex, mostly built the compiler, not happy with this but it works.
 
 
 
